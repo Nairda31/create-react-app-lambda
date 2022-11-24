@@ -8,7 +8,7 @@ function App() {
       <div className="flex flex-col items-center  h-[100%] w-screen font-bold bg-[#CD5C5C]">
         <h1 className="text-[60px] mb-[10rem] animate-pulse">❤️Patri❤️</h1>
         <div className="flex flex-col items-center mb-[7rem]">
-          <h1 className=" items-center mb-[3rem] ">
+          <h1 className=" items-center mb-[3rem] text-[1.2rem] ">
             ❤️5 Motive pentru care te iubesc❤️
           </h1>
           <ol className="space-y-4 ml-[15px]">
@@ -22,11 +22,13 @@ function App() {
           </ol>
         </div>
         <div className="flex flex-col items-center mb-[5rem] ">
-          <h1 className="mb-[10px]">❤️O poza de imi place cu noi❤️</h1>
+          <h1 className="mb-[10px] text-[1.2rem]">
+            ❤️O poza de imi place cu noi❤️
+          </h1>
           <img src={poza1} alt="Nu stiu" className="h-[20rem] w-[30rem]" />
         </div>
         <div className="flex flex-col items-center mb-[4rem]">
-          <h1 className="mb-[2rem]">
+          <h1 className="mb-[2rem] text-[1.1rem]">
             ❤️Un mic rezumat la cum ne-am cunoscut❤️
           </h1>
 
@@ -44,12 +46,14 @@ function App() {
           </p>
         </div>
         <div className="flex flex-col items-center mb-[4rem]">
-          <h1 className="mb-[3rem]">❤️Asa te plimbi tu in capul meu❤️</h1>
+          <h1 className="mb-[3rem] text-[1.2rem]">
+            ❤️Asa te plimbi tu in capul meu❤️
+          </h1>
           <img src={poza2} alt="Nu stiu" className="h-[15rem] animate-spin" />
         </div>
 
         <div className="flex flex-col items-center mb-[4rem]">
-          <h1 className="mb-[3rem]">❤️Aproape de final❤️</h1>
+          <h1 className="mb-[3rem] text-[1.2rem]">❤️Aproape de final❤️</h1>
           <p>
             ❤️Aproape am ajuns de final si vreau sa-ti spun ca esti unul dintre
             cele mai frumoase lucruri de mi s-au intamplat.Uite un pupic ❤️:
@@ -57,7 +61,7 @@ function App() {
           <p className="text-[5rem]">😙</p>
         </div>
         <div className="flex flex-col items-center mb-[4rem]">
-          <h1 className="mb-[3rem]">❤️Semnificatie floare❤️</h1>
+          <h1 className="mb-[3rem] text-[1.2rem]">❤️Semnificatia florii❤️</h1>
           <p className="mb-[2rem]">
             Ti-am tot luat trandafiri🌹🌹 si toti ori s-au ofilit, ori s-au
             dezintegrat , ori cine stie ce s-a mai intamplat cu ei asa ca m-am
@@ -66,14 +70,14 @@ function App() {
           <p>❤️"Te voi iubi pana cand trandafirul se va ofili"❤️</p>
         </div>
         <div className="flex flex-col items-center mb-[4rem]">
-          <h1 className="mb-[2rem]">❤️❤️❤️Finalul❤️❤️❤️</h1>
+          <h1 className="mb-[2rem] text-[1.2rem]">❤️❤️❤️Finalul❤️❤️❤️</h1>
           <p>
             Chiar daca nu mereu ne intelegem, vreau sa sti ca mereu te poti baza
             pe mine si ca te iubesc foarte mult!❤️❤️ Si orice s-ar intampla o sa
             fiu mereu langa tine.❤️❤️
           </p>
         </div>
-        <h1 className="text-[2rem] animate-pulse">❤️TE IUBESC❤️</h1>
+        <h1 className="text-[2rem] animate-pulse ">❤️TE IUBESC❤️</h1>
       </div>
     </>
   );
