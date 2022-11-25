@@ -7,7 +7,7 @@ function App() {
     <>
       <div className="flex flex-col items-center  h-[100%] w-screen font-bold bg-[#CD5C5C]">
         <h1 className="text-[60px] mb-[10rem] animate-pulse">❤️Patri❤️</h1>
-        <div className="flex flex-col items-center mb-[7rem]">
+        <div className="flex flex-col items-center mb-[7rem] border-dashed border-2 border-red-900 p-4 shadow-2xl rounded-sm">
           <h1 className=" items-center mb-[3rem] text-[1.2rem] ">
             ❤️5 Motive pentru care te iubesc❤️
           </h1>
@@ -21,14 +21,14 @@ function App() {
             <li>❤️Fiindca crezi in mine.</li>
           </ol>
         </div>
-        <div className="flex flex-col items-center mb-[5rem] ">
+        <div className="flex flex-col items-center mb-[5rem]  ">
           <h1 className="mb-[10px] text-[1.2rem]">
             ❤️O poza de imi place cu noi❤️
           </h1>
           <img src={poza1} alt="Nu stiu" className="h-[20rem] w-[30rem]" />
         </div>
-        <div className="flex flex-col items-center mb-[4rem]">
-          <h1 className="mb-[2rem] text-[1.1rem]">
+        <div className="flex flex-col items-center mb-[4rem] border-solid border-2 border-red-900 p-4 shadow-2xl">
+          <h1 className="mb-[2rem] text-[1rem]">
             ❤️Un mic rezumat la cum ne-am cunoscut❤️
           </h1>
 
@@ -52,7 +52,7 @@ function App() {
           <img src={poza2} alt="Nu stiu" className="h-[15rem] animate-spin" />
         </div>
 
-        <div className="flex flex-col items-center mb-[4rem]">
+        <div className="flex flex-col items-center mb-[4rem] border-dotted border-2 border-red-900 p-4 shadow-xl">
           <h1 className="mb-[3rem] text-[1.2rem]">❤️Aproape de final❤️</h1>
           <p>
             ❤️Aproape am ajuns de final si vreau sa-ti spun ca esti unul dintre
@@ -69,7 +69,7 @@ function App() {
           </p>
           <p>❤️"Te voi iubi pana cand trandafirul se va ofili"❤️</p>
         </div>
-        <div className="flex flex-col items-center mb-[4rem]">
+        <div className="flex flex-col items-center mb-[4rem] border-dotted border-2 border-red-900 p-4 shadow-xl">
           <h1 className="mb-[2rem] text-[1.2rem]">❤️❤️❤️Finalul❤️❤️❤️</h1>
           <p>
             Chiar daca nu mereu ne intelegem, vreau sa sti ca mereu te poti baza
